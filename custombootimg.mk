@@ -1,4 +1,4 @@
-LZMA_BIN := $(shell which lzma > )
+LZMA_BIN := $(shell which lzma >)
 
 
 $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
